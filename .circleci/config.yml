@@ -1,0 +1,10 @@
+version: 2.1
+
+orbs:
+  gke: circleci/gcp-gke@x.y.z
+
+workflows:
+  main:
+    jobs:
+      - gke/create-cluster:
+          cluster: devops5pasos-circleci
