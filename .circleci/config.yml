@@ -6,5 +6,6 @@ orbs:
 workflows:
   main:
     jobs:
-      - gke/create-cluster:
+      - gke/delete-cluster:
           cluster: devops5pasos-circleci
+      
